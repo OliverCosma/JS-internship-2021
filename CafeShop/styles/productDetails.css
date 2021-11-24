@@ -1,0 +1,7 @@
+.details-content {
+    border: 1px solid black;
+}
+
+.plus-minus {
+    display: flex;
+}
