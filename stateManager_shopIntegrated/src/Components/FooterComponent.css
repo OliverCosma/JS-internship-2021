@@ -1,0 +1,14 @@
+.footer{
+  clear: both;
+  position: relative;
+  height: 90px;
+  margin-top: -200px;
+  background-color:black;
+  width: 100%; /* Full width */
+  }
+  .text{
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+  }

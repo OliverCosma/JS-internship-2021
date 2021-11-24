@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<title> Encrypt Decrypt</title>
+<html>
+    <link rel="stylesheet" href="style.css">
+<body>
+
+
+
+
+
+
+    
+<div class="bg-img">
+    <div class="top-left"><h2>Encrypt challenge</h2></div>
+   <div class="container">
+      <h1>Encrypt</h1>
+      <p> Message to encrypt:</p>
+      <input  type="text" id="message_encrypt" >
+      <p>Key used: </p>
+      <input  type="text" id="key">
+      <button class="btn" onclick="encryptMessage()">Encrypt</button>
+    
+   </div>
+   <div class="container">
+    <h1>Decrypt</h1>
+    <p> Message to decrypt:</p>
+    <input type="text" id="message_decrypt" >
+    <p>Key used: </p>
+    <input  type="text" id="key2" >
+    <button class="btn" onclick="decryptMessage()">Decrypt</button>
+    
+   </div>
+    <div class="container2">
+        <h1>Results:</h1>
+        <p>Message encrypted:</p>
+        <input readonly="readonly" type = "text" id = "result_encrypt" value="" />
+        <P>Message decrypted:</P>
+        <input readonly="readonly" type = "text" id = "result_decrypt" value="" />
+        <button type ="reset" onclick="ClearAll()" class="btn">Clear all values</button>
+        
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="encrypt.js"></script>
+</body>
+</html>

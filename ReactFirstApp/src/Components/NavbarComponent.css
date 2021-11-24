@@ -1,0 +1,61 @@
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 67px;
+  }
+  .bar_logo{
+    padding:30px 16px;
+    float:left;width:auto;
+    border:none;
+    display:block;
+    outline:0
+  }
+  .bar_logo2{
+    padding:30px 16px;
+    float:right;width:auto;
+    border:none;
+    display:block;
+    outline:0
+  }
+  .nav_logo{
+    white-space:normal;
+    color:#fff!important;
+    background-color:#009688!important;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    white-space:nowrap
+  }
+  .nav_logo2{
+    border:3px;
+    border-color:aquamarine;
+    white-space:normal;
+    color:#fff!important;
+    background-color:#009688!important;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    white-space:nowrap
+  }
+  .h2{
+    color:tomato !important
+    }
+.wanna_be_button
+{
+  cursor:pointer;
+}
+
+ 
